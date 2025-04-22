@@ -1,0 +1,24 @@
+{
+  "configs": [
+    "template.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "1fb6d896-bda6-4d7b-87e8-605ef9135427:treblle-policy:1.0.2",
+  "minMuleVersion": "4.1.1",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {
+      "groupId": "1fb6d896-bda6-4d7b-87e8-605ef9135427",
+      "classifier": "mule-policy",
+      "artifactId": "treblle-policy",
+      "type": "jar",
+      "version": "1.0.2"
+    }
+  }
+}

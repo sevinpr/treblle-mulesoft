@@ -1,0 +1,23 @@
+id: treblle-policy
+name: treblle-policy
+description: Treblle policy to push API logs to Treblle
+category: Custom
+type: custom
+resourceLevelSupported: true
+encryptionSupported: false
+standalone: true
+requiredCharacteristics: []
+providedCharacteristics: []
+supportedJavaVersions: ["8", "11", "17"]
+configuration:
+  - propertyName: projectID
+    name: API Key
+    description: Treblle API Key (Project ID)
+    type: string
+    optional: false
+  - propertyName: apiKey
+    name: SDK Token
+    description: Treblle SDK Token
+    type: string
+    optional: false
+
