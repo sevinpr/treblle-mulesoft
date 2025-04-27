@@ -4,9 +4,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>add groupID here</groupId>
+    <groupId>{GroupID}</groupId>
     <artifactId>treblle-policy</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <name>treblle-policy</name>
     <description>Treblle policy to push API logs to Treblle</description>
@@ -14,29 +14,12 @@
     <packaging>mule-policy</packaging>
 
     <properties>
-        <mule.maven.plugin.version>3.3.6</mule.maven.plugin.version>
+        <mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
         <exchange.url>
             https://maven.anypoint.mulesoft.com/api/v1/organizations/${project.groupId}/maven</exchange.url>
         <http.policy.transform.extension>3.1.0</http.policy.transform.extension>
     </properties>
 
-    <dependencies>
-        <!-- This extension allows to easily update HTTP attributes from a policy -->
-        <!-- Full documentation: https://docs.mulesoft.com/api-manager/2.x/http-policy-transform -->
-        <!-- <dependency>
-            <groupId>com.mulesoft.anypoint</groupId>
-            <artifactId>mule-http-policy-transform-extension</artifactId>
-            <version>${http.policy.transform.extension}</version>
-            <classifier>mule-plugin</classifier>
-            <exclusions>
-            <exclusion>
-                <groupId>org.mule.connectors</groupId>
-                <artifactId>mule-http-connector</artifactId>
-            </exclusion>
-        </exclusions>
-        </dependency>
-        -->
-    </dependencies>
 
     <build>
         <plugins>
